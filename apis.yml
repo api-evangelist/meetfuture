@@ -1,7 +1,30 @@
 aid: meetfuture
-name: meetfuture
-description: meetfuture is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meetfuture.png
+name: MeetFuture Technology
+description: >-
+  MeetFuture Technology (弥费科技) is a Shanghai-based, global-leading supplier of
+  semiconductor Automated Material Handling Systems (AMHS) and core components,
+  founded in 2014. It designs and manufactures overhead hoist transport (OHT),
+  stocker/storage, purge, and AMHS control-software solutions for semiconductor
+  wafer fabrication plants, integrating with fab MES systems over SEMI equipment
+  communication standards (E37/HSMS, E30/GEM, E82, E84, E10). MeetFuture holds
+  300+ intellectual-property items, operates China's largest AMHS cleanroom test
+  center, authored China's first semiconductor OHT standard (T/SICA 006—2024),
+  and won the 2025 SEMI Product Innovation Award. It is a Qiming Venture Partners
+  portfolio company. MeetFuture is an industrial semiconductor-equipment maker
+  and does not publish a public web API, developer portal, or SDKs; this profile
+  is maintained for network identity and discovery.
 url: https://raw.githubusercontent.com/api-evangelist/meetfuture/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,21 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
+- Semiconductor
+- Manufacturing
+- Automation
+- AMHS
+- Industrial Equipment
+- Robotics
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +56,13 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/meetfuture-domain-security.yml
 - type: Website
-  url: https://meetfuture.cn
+  url: https://www.meetfuture.com/en/
+- type: Support
+  url: https://www.meetfuture.com/en/service
+- type: Blog
+  url: https://www.meetfuture.com/en/news/0
+- type: TermsOfService
+  url: https://www.meetfuture.com/en/flsm
