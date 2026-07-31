@@ -1,0 +1,14 @@
+{
+  "repo": "meetfuture",
+  "feeds": [
+    {
+      "source": "https://www.meetfuture.com/en/service",
+      "feed_url": "https://www.meetfuture.com/en/service",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
