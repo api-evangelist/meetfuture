@@ -42,6 +42,15 @@ x-enrichment:
   pass: local-v1
 tags:
 - Company
+- Semiconductors
+- Manufacturing
+- Automation
+- AMHS
+- Industrial Equipment
+- Robotics
+- Hardware
+tags_raw:
+- Company
 - Semiconductor
 - Manufacturing
 - Automation
