@@ -53,7 +53,7 @@ x-enrichment:
   pass: local-v1
 tags:
 - Company
-- Semiconductors
+- Semiconductor
 - Manufacturing
 - Automation
 - AMHS
